@@ -1,0 +1,25 @@
+{
+  "measured_at_utc": "2026-10-13T11:28:28.378596+00:00",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.13.14",
+  "packages": {
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "scikit-image": "0.26.0",
+    "torch": "2.14.1+cpu"
+  },
+  "cnn_device": {
+    "status": "ready",
+    "device": "cpu",
+    "device_name": "CPU"
+  },
+  "split": "PrivateTest",
+  "samples": 3589,
+  "repeats": 1,
+  "seed": 42,
+  "models": [
+    "mini-Xception"
+  ],
+  "timing": "Per-image feature extraction and prediction; CNN includes JSON transfer and worker round trip. Detection, resizing, loading and warm-up excluded."
+}

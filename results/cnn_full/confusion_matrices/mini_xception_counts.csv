@@ -1,0 +1,8 @@
+True emotion,Angry,Disgust,Fear,Happy,Sad,Surprise,Neutral
+Angry,287,2,31,18,93,4,56
+Disgust,25,15,5,4,4,1,1
+Fear,92,1,158,31,143,38,65
+Happy,17,0,7,785,33,13,24
+Sad,44,1,25,31,367,4,122
+Surprise,14,0,54,35,12,282,19
+Neutral,30,1,17,39,111,5,423

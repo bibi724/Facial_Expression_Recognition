@@ -1,0 +1,7 @@
+{
+  "calibration_split": "PublicTest",
+  "calibration_images": 3589,
+  "method": "sigmoid",
+  "base_model_sha256": "ed4f3f96b3662cbbb6154cf0e5c5e897baeff3b567eb4e07d725137801baaea3",
+  "evaluation_split": "PrivateTest"
+}

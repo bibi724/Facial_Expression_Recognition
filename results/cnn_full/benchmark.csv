@@ -1,0 +1,2 @@
+model,mean_latency_ms,std_latency_ms,accuracy,device
+mini-Xception,4.2666264976343165,1.0715026094264188,0.6455837280579548,cpu

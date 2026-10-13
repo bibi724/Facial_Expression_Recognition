@@ -1,0 +1,4 @@
+model,mean_latency_ms,std_latency_ms,accuracy,device
+LBP + KNN,216.96762933331607,13.367912879857878,0.3,cpu
+HOG + Linear SVM,6.079909999996289,1.4167419746176801,0.32,cpu
+mini-Xception,12.840194666667534,1.7048872351673323,0.5,cpu

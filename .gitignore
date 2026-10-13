@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Dataset FER-2013
+data/fer2013.csv
+data/fer2013.csv.zip
+data/*.part
+
+# Local uncompressed KNN model
+models/knn_lbp.pkl
+
+# Personal sample images
+images/
+
+# Temporary files and credentials
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# External pretrained repository
+external/
+
