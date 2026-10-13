@@ -40,6 +40,9 @@ def process_image(image):
     gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
     faces = detector(gray, 1)
     if len(faces) == 0:
+        enhanced = cv2.equalizeHist(gray)
+        faces = detector(enhanced, 2)
+    if len(faces) == 0:
         return rgb, "No face detected", "-", "-"
 
     face = faces[0]
@@ -108,9 +111,11 @@ with gr.Blocks(title="Facial Expression Recognition") as demo:
             knn_output,
             svm_output,
             cnn_output
-        ]
+        ],
+        queue=False,
+        show_progress="full",
     )
 
 
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(show_error=True)

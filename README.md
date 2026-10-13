@@ -19,6 +19,7 @@ Repository: [bibi724/Facial_Expression_Recognition](https://github.com/bibi724/F
 | Evaluation | Reproducible benchmark and confusion matrices are included in `results/`. |
 
 The webcam input captures a snapshot. The application does not perform continuous video inference. Only the first detected face is processed. Landmark alignment is not implemented.
+If the first face-detection pass finds no face, the application retries with contrast enhancement and higher upsampling. A clear, front-facing image still gives the detector the best chance to find a face.
 
 Personal sample images in `images/` are excluded from Git. The optional `src/face_detection.py` example expects a local `images/demo.jpg`; the Gradio interface works without it.
 
